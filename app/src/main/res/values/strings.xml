@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JKeys</string>
+    <string name="app_display_name">JKeys Keyboard</string>
+    <string name="ime_subtype">English (AU)</string>
+</resources>

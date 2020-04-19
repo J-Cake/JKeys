@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <dimen name="key_height">48dp</dimen>-->
+    <dimen name="key_height">54dp</dimen>
+    <dimen name="key_width">10</dimen> <!--one tenth of the screen space-->
+    <dimen name="space_width">60</dimen> <!--one tenth of the screen space-->
+    <dimen name="key_margin">3dp</dimen>
+    <dimen name="key_margin_vertical">6dp</dimen>
+    <dimen name="key_text_size">18sp</dimen>
+    <dimen name="space_text_size">16sp</dimen>
+
+    <dimen name="candidate_view_height">@dimen/key_height</dimen>
+</resources>

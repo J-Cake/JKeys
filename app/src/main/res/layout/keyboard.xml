@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/key_margin_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            app:alignItems="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="q"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="w"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="e"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="r"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="t"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="y"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="u"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="i"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="o"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="p"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/key_margin_vertical"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_weight="90"
+            app:alignItems="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="a"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="s"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="d"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="f"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="g"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="h"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="j"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="k"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="l"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/key_height"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/key_margin_vertical"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/shift"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            app:alignItems="center"
+            app:justifyContent="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:src="@drawable/ic_keyboard_capslock_black_24dp" />
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            app:alignItems="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="z"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="x"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="c"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="v"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="b"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="n"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                android:layout_marginVertical="@dimen/key_margin_vertical"
+                android:background="@drawable/key"
+                android:fontFamily="@font/baloo_bhaina2"
+                android:gravity="center"
+                android:text="m"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/key_text_size"
+                app:layout_flexBasisPercent="100%" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/backspace"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_weight="15"
+            app:alignItems="center"
+            app:justifyContent="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                android:src="@drawable/ic_keyboard_backspace_black_24dp" />
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/key_height"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/key_margin_vertical"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/key_height"
+            android:layout_marginHorizontal="@dimen/key_margin"
+            android:layout_weight="10">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/more"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/key_height"
+                app:alignItems="center"
+                app:justifyContent="center">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/key_height"
+                    android:src="@drawable/ic_more_horiz_black_24dp" />
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/key_height"
+            android:layout_marginHorizontal="@dimen/key_margin"
+            android:layout_weight="@dimen/key_width"
+            android:background="@drawable/key"
+            android:fontFamily="@font/baloo_bhaina2"
+            android:gravity="center"
+            android:text=","
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/key_text_size" />
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/key_height"
+            android:layout_marginHorizontal="@dimen/key_margin"
+            android:layout_weight="@dimen/space_width"
+            android:background="@drawable/key"
+            android:fontFamily="@font/baloo_bhaina2"
+            android:gravity="center"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/space_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/key_height"
+            android:layout_marginHorizontal="@dimen/key_margin"
+            android:layout_weight="@dimen/key_width"
+            android:background="@drawable/key"
+            android:fontFamily="@font/baloo_bhaina2"
+            android:gravity="center"
+            android:text="."
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/key_text_size" />
+
+        <LinearLayout
+            android:id="@+id/done_key"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/key_height"
+            android:layout_marginHorizontal="@dimen/key_margin"
+            android:layout_weight="10"
+            android:background="@drawable/enter_key">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/done"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/key_height"
+                android:layout_marginHorizontal="@dimen/key_margin"
+                app:justifyContent="center">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/key_height"
+                    android:src="@drawable/ic_done_black_24dp" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

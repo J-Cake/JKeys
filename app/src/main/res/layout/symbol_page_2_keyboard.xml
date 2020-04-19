@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:key="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/key_margin_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:baselineAligned="false">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            app:justifyContent="center"
+            app:alignItems="center"
+            app:alignContent="center">
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="1"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="2"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="3"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="4"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="5"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="6"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="7"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="8"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="9"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="0"
+                app:layout_flexBasisPercent="100%"/>
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:baselineAligned="false">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            app:justifyContent="center"
+            app:alignItems="center"
+            app:alignContent="center">
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:drawable="@drawable/ic_keyboard_tab_black_24dp"
+                key:symbol="\t"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="#"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="~"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="`"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="^"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=":"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=";"
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:baselineAligned="false">
+
+        <au.com.jschneiderprojects.jkeys.Key
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_weight="1"
+            android:id="@+id/cycle_page"
+            key:drawable="@drawable/ic_navigate_before_black_24dp"/>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            app:justifyContent="center"
+            app:alignItems="center"
+            app:alignContent="center">
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                app:layout_flexBasisPercent="100%"/>
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <au.com.jschneiderprojects.jkeys.Key
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_weight="1"
+            android:id="@+id/backspace"
+            key:repeat="true"
+            key:drawable="@drawable/ic_keyboard_backspace_black_24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:baselineAligned="false">
+
+        <au.com.jschneiderprojects.jkeys.Key
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_weight="1.5"
+            android:id="@+id/less"
+            key:drawable="@drawable/ic_more_horiz_black_24dp"/>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            app:justifyContent="center"
+            app:alignItems="center"
+            app:alignContent="center">
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=","
+                app:layout_flexBasisPercent="15%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display=""
+                key:symbol=" "
+                app:layout_flexBasisPercent="70%"/>
+
+            <au.com.jschneiderprojects.jkeys.Key
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/key_height"
+                key:display="."
+                app:layout_flexBasisPercent="15%"/>
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <au.com.jschneiderprojects.jkeys.Key
+            android:id="@+id/done"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/key_height"
+            android:layout_weight="1.5"
+            key:background="@drawable/enter_key"
+        key:drawable="@drawable/ic_done_black_24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

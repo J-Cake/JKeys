@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/key_height"
+    android:paddingVertical="@dimen/key_margin_vertical"
+    android:paddingHorizontal="@dimen/key_margin"
+    android:gravity="center">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/keyText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/key"
+        app:justifyContent="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/drawable"
+            android:src="@drawable/blank_key"/>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</RelativeLayout>

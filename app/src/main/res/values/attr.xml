@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Key">
+        <attr name="display" format="string" />
+        <attr name="symbol" format="string" />
+        <attr name="drawable" format="reference"/>
+        <attr name="repeat" format="boolean"/>
+        <attr name="background" format="reference"/>
+    </declare-styleable>
+</resources>
